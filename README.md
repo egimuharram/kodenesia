@@ -2,10 +2,10 @@ kodenesia
 =========
 
 Solusi soal pemrograman buah karya Yanmarshus Bachtiar @BerandaKarima.
-Koleksi soal [kodenesia](http://karima.web.id/kodenesia/index.html)
+Koleksi soal ada di -> [kodenesia](http://karima.web.id/kodenesia/index.html)
 
-* Pesan rahasia
-* Penjaga titik tengah
+* Pesan rahasia [ok]
+* Penjaga titik tengah [ok]
 * Kantong ajaib
 * Tombol keyboard yang rusak
 * Bilangan Fibonacci
