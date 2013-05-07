@@ -2,8 +2,7 @@ kodenesia
 =========
 
 Solusi soal pemrograman buah karya Yanmarshus Bachtiar @BerandaKarima.
-
-Koelksi soal: http://karima.web.id/kodenesia/index.html
+http://karima.web.id/kodenesia/index.html
 
 * Pesan rahasia
 * Penjaga titik tengah
