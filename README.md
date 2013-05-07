@@ -1,7 +1,7 @@
 kodenesia
 =========
 
-Solusi soal pemrograman yang dibuat oleh beranda Karima.
+Solusi soal pemrograman yang dibuat oleh Yanmarshus Bachtiar @BerandaKarima.
 
 * Pesan rahasia
 * Penjaga titik tengah
@@ -11,3 +11,9 @@ Solusi soal pemrograman yang dibuat oleh beranda Karima.
 * Ada malam kasak kusuk
 * Jumlah dari bilangan yang merupakan perkalian dari
 * Kubus masuk kotak
+
+Cara Menjalankan
+================
+
+Unduh berkas terkait. Lalu dari console, jalankan php nama_berkas.
+Contoh: `php PesanRahasia.php`
