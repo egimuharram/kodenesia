@@ -7,19 +7,19 @@ class PenjagaTitikTengah
     private $median = 0;
     private $pola = array();
     private $total8Angka = 0;
-
+    private $pencacah = 0;	
+ 
     public function cariJumlahAngkaDiSekelilingMedian()
     {
-        $pencacah = 0;
         $handle = @fopen("input.7", "r");
         try {
             while (($N = fgets($handle, 4096)) !== false) {
-                if ($pencacah != 0) {
+                if ($this->pencacah != 0) {
                     $this->median = $this->tentukanMedian($N);
                     $this->pola = $this->cariPolanya($N);
                     $this->jumlahkanDelapanAngkaDiSekelilingnya();
                 }
-                $pencacah++;
+                $this->pencacah++;
             }
         } catch (Exception $exc) {
             echo "Waduh: Gagal membaca baris\n";
@@ -46,7 +46,7 @@ class PenjagaTitikTengah
             // Empat Angka Kedua
             $this->total8Angka += $this->median + $value;
         }
-        echo $this->total8Angka . "\n";
+        echo "Case #" . $this->pencacah . ": " . $this->total8Angka . "\n";
     }
 
 }
