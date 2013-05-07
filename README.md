@@ -1,7 +1,7 @@
 kodenesia
 =========
 
-Solusi soal pemrograman yang dibuat oleh Yanmarshus Bachtiar @BerandaKarima.
+Solusi soal pemrograman buah karya Yanmarshus Bachtiar @BerandaKarima.
 
 * Pesan rahasia
 * Penjaga titik tengah
@@ -15,5 +15,6 @@ Solusi soal pemrograman yang dibuat oleh Yanmarshus Bachtiar @BerandaKarima.
 Cara Menjalankan
 ================
 
-Unduh berkas terkait. Lalu dari console, jalankan php nama_berkas.
+Unduh berkas terkait, dari console jalankan perintah `php nama_berkas`.
+
 Contoh: `php PesanRahasia.php`
