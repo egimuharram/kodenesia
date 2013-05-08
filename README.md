@@ -4,10 +4,11 @@ kodenesia
 Solusi soal pemrograman buah karya Yanmarshus Bachtiar @BerandaKarima.
 Koleksi soal ada di -> [kodenesia](http://karima.web.id/kodenesia/index.html)
 
+* Antrian Sembako
 * Pesan rahasia [ok]
 * Penjaga titik tengah [ok]
 * Kantong ajaib
-* Tombol keyboard yang rusak
+* Tombol keyboard yang rusak [ok]
 * Bilangan Fibonacci
 * Ada malam kasak kusuk
 * Jumlah dari bilangan yang merupakan perkalian dari
