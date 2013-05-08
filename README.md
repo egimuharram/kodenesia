@@ -10,7 +10,7 @@ Koleksi soal ada di -> [kodenesia](http://karima.web.id/kodenesia/index.html)
 * Kantong ajaib
 * Tombol keyboard yang rusak [ok]
 * Bilangan Fibonacci
-* Ada malam kasak kusuk
+* Ada malam kasak kusuk [ok]
 * Jumlah dari bilangan yang merupakan perkalian dari
 * Kubus masuk kotak
 
