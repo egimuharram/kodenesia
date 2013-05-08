@@ -1,7 +1,7 @@
 kodenesia
 =========
 
-Solusi soal pemrograman buah karya Yanmarshus Bachtiar @BerandaKarima.
+Solusi atas soal-soal pemrograman yang dibuat oleh Yanmarshus Bachtiar @BerandaKarima. 
 Koleksi soal ada di -> [kodenesia](http://karima.web.id/kodenesia/index.html)
 
 * Antrian Sembako
