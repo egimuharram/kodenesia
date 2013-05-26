@@ -2,13 +2,14 @@
 /**
 * Algoritma 
 * 1. Buat array berisi kamus ROT13  
-* 2. Baca baris  
+* 2. Baca baris input.8
 * 3. Pecah baris ke dalam potongan karakter
-* 4. Cari karakter pada kolom "key" array, jika ketemu ambil "value" dari "key" tersebut
-* 5. Cari karakter pada kolom "value" array, jika ketemu ambil "key"-nya   
-* 6. Jika langkah 4 dan 5 tdk memberikan hasil, biarkan karakter tersebut apa adanya
-* 7. Gabungkan hasil 4 & 5 ke dalam sebuah kalimat, lalu cetak
-* 8. Kembali ke langkah 2 hingga baris terakhir selesai dibaca
+* 4. Cocokkan karakter pada kolom "key" array, jika ketemu ambil "value" dari "key" tersebut
+* 5. Cocokkan karakter pada kolom "value" array, jika ketemu ambil "key"-nya   
+* 6. Jika langkah 4 dan 5 tidak memberikan hasil, biarkan karakter tersebut apa adanya
+* 7. Gabungkan hasil pada langkah 4,5, dan 6 hingga membentuk kalimat yg 
+     sudah ter-decrypt. Cetak ke layar !
+* 8. Kembali ke langkah 2, terus ulangi hingga baris terakhir selesai dibaca
 **/
 
 class PesanRahasia
