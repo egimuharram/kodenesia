@@ -23,4 +23,4 @@ Contoh: `php PesanRahasia.php`
 
 Lisensi
 ================
-CC BY-NC 2.0(http://creativecommons.org/licenses/by-nc/2.0/)
+[CC BY-NC 2.0](http://creativecommons.org/licenses/by-nc/2.0/)
