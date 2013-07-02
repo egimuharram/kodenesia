@@ -1,0 +1,19 @@
+Menulis sebuah pesan atau surat dengan sandi tertentu sudah ada sejak lama.
+Konon lagi di dunia serba maju ini, caranya sudah semakin rumit. Salah satu
+metode yang paling sederhana adalah dengan mengganti satu huruf dengan huruf
+yang lain. Misalnya huruf a diganti menjadi huruf n, huruf b menjadi huruf o,
+huruf c menjadi huruf p, demikian seterusnya, sehingga setiap huruf punya
+pasangan penggantinya. Metode penyandian ini disebut juga dengan ROT13. Berikut
+ini adalah tabel penyandian untuk setiap huruf.
+
+a b c d e f g h i j k l m
+| | | | | | | | | | | | |
+n o p q r s t u v w x y z
+
+Dalam input file tersedia sejumlah baris yang telah disandikan dengan cara di
+atas. Temukan kalimat aslinya.
+
+File input.8
+Baris pertama berisi angka yang menunjukkan jumlah baris yang akan diproses.
+Setiap baris berikutnya berisi teks yang telah disandikan. Hanya karakter a-z
+yang perlu dipecahkan kodenya. Selain dari itu ditampilkan apa adanya. 
