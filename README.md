@@ -1,8 +1,8 @@
 kodenesia
 =========
 
-Pembahasan soal pemrograman yang dirilis oleh Yanmarshus Bachtiar @BerandaKarima. 
-Koleksi soal ada di -> [kodenesia](http://karima.web.id/kodenesia/index.html)
+Pembahasan soal pemrograman yang dirilis oleh YanmarshusBachtiar@BerandaKarima. 
+[kodenesia](http://karima.web.id/kodenesia/index.html)
 
 * Antrian Sembako
 * Pesan rahasia [ok]
@@ -23,4 +23,4 @@ Contoh: `php PesanRahasia.php`
 
 Lisensi
 ================
-CC BY-NC 2.0[http://creativecommons.org/licenses/by-nc/2.0/]
+CC BY-NC 2.0(http://creativecommons.org/licenses/by-nc/2.0/)
