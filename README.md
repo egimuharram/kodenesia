@@ -1,16 +1,20 @@
 kodenesia
 =========
 
-Pembahasan soal pemrograman yang dirilis oleh YanmarshusBachtiar@BerandaKarima. 
+Kodenesia merupakan koleksi soal latihan algoritma & pemrograman. 
+Dibuat untuk bersenang-senang sahaja. Bagi pembaca yg tertarik untuk menyumbang soal dan jawaban
+silahkan untuk mem-forking repositori ini. Semoga bermanfaat.
+
+kodenesia diprakarsai oleh [Yanmarshus Bachtiar](http://karima.web.id) 
 [kodenesia](http://karima.web.id/kodenesia/index.html)
 
 * Antrian Sembako
-* Pesan rahasia [ok]
-* Penjaga titik tengah [ok]
+* Pesan rahasia 
+* Penjaga titik tengah 
 * Kantong ajaib
-* Tombol keyboard yang rusak [ok]
+* Tombol keyboard yang rusak
 * Bilangan Fibonacci
-* Ada malam kasak kusuk [ok]
+* Ada malam kasak kusuk 
 * Jumlah dari bilangan yang merupakan perkalian dari
 * Kubus masuk kotak
 
