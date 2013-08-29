@@ -1,4 +1,4 @@
-kodenesia
+Kodenesia
 =========
 
 Kodenesia merupakan koleksi soal latihan algoritma & pemrograman. 
@@ -7,6 +7,9 @@ silahkan untuk mem-forking repositori ini. Semoga bermanfaat.
 
 kodenesia diprakarsai oleh [Yanmarshus Bachtiar](http://karima.web.id) 
 [kodenesia](http://karima.web.id/kodenesia/index.html)
+
+Indeks Koleksi
+==============
 
 * Antrian Sembako
 * Pesan rahasia 
@@ -18,7 +21,7 @@ kodenesia diprakarsai oleh [Yanmarshus Bachtiar](http://karima.web.id)
 * Jumlah dari bilangan yang merupakan perkalian dari
 * Kubus masuk kotak
 
-Cara Menjalankan
+Cara menjalankan
 ================
 
 Unduh berkas terkait, dari console jalankan perintah `[php/python] nama_berkas`
