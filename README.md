@@ -8,8 +8,8 @@ silahkan untuk mem-forking repositori ini. Semoga bermanfaat.
 kodenesia diprakarsai oleh [Yanmarshus Bachtiar](http://karima.web.id) 
 [kodenesia](http://karima.web.id/kodenesia/index.html)
 
-Indeks Koleksi
-==============
+Indeks 
+======
 
 * Antrian Sembako
 * Pesan rahasia 
