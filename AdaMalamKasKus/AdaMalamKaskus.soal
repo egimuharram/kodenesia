@@ -1,0 +1,16 @@
+Adalah seorang penyair. Kata baginya seperti tinta bagi seorang
+pelukis. Dari banyak kata yang ada, dia banyak mendapat inspirasi dari kata
+yang bisa dibaca dari arah yang berbeda, tapi bunyinya sama, seperti kata
+"malam". Kata ini dibaca dari arah kiri akan sama juga jika dibaca dari arah
+kanan. Untuk soal ini, temukanlah jumlah kata seperti ini dalam setiap baris
+soal. 
+
+Misalnya kalimat : Banyak peserta yang kasak kusuk ketika mengikuti
+perkemahan pada malam Minggu. Jumlah kata yang bisa dibaca sama dari arah
+kiri dan kanan adalah 3.
+
+File input.3
+Baris pertama berisi angka yang menunjukkan jumlah soal. Setiap baris
+berikutnya berisi kalimat dengan sejumlah kata. Pemisah antar kata adalah
+satu spasi. Sebuah kata terdiri dari huruf a sampai z. Selain dari itu
+bukanlah termasuk unsur kata.

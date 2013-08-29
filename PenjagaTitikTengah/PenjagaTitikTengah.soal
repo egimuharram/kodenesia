@@ -1,0 +1,29 @@
+Pernah melihat kertas untuk bermain ular tangga? Kotak-kotak diberi nomor
+dari 1 sampai 100. Ada 10 baris dan 10 kolom. Dalam kisah ini, jumlah kolom
+dan baris berupa bilangan ganjil. Karena jumlah kolom dan baris adalah ganjil,
+maka ada satu buah kotak yang persis berada di tengah-tengah. Angka 1 dimulai
+dari kotak pada baris paling atas sebelah kiri. Contoh berikut untuk 5 kolom
+dan 5 baris.
+
++----+----+----+----+----+
+| 1  | 2 | 3   | 4  | 5  |
++----+----+----+----+----+
+| 6  | 7 | 8   | 9  | 10 |
++----+----+----+----+----+
+| 11 | 12 | 13 | 14 | 15 |
++----+----+----+----+----+
+| 16 | 17 | 18 | 19 | 20 |
++----+----+----+----+----+
+| 21 | 22 | 23 | 24 | 25 |
++----+----+----+----+----+
+
+Angka yang persis di tengah adalah angka 13. Kotak pada angka 13 ini
+dikelilingi oleh 8 kotak, yaitu 7, 8, 9, 12, 14, 17, 18, dan 19. Jumlah dari
+8 angka ini adalah 104. Jumlah angka yang ada di sekeliling angka paling
+tengah inilah yang akan dicari untuk setiap baris pada file input.
+
+File input.7
+Baris pertama berisi angka yang menunjukkan jumlah soal. Setiap baris
+berikutnya berisi 1 angka yaitu jumlah kolom dan sekaligus jumlah baris. Angka
+ini selalu berupa angka ganjil.
+

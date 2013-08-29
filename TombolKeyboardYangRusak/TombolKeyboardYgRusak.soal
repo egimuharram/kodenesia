@@ -1,0 +1,15 @@
+Haris adalah karyawan di sebuah kantor kecamatan. Sayangnya, karena
+keyboard yang digunakan sudah rusak, hasil ketikannya menjadi banyak yang
+berulang. Seharusnya Haris mengetik sekumpulan teks, yang di dalam setiap
+barisnya tidak boleh ada huruf yang sama berurutan. 
+
+Dari hasil ketikan
+menggunakan keyboard rusak tersebut, bersihkanlah setiap baris sehingga
+tidak ada huruf yang sama berurutan. Contoh :
+skkkkfggiijklgoooo kddhhfnjkh tyrdgsde
+hasilnya setelah dibersihkan adalah :
+skfgijklgo kdhfnjkh tyrdgsde
+
+File input.5
+Baris pertama berisi angka yang menunjukkan jumlah soal. Setiap baris
+berikutnya berisi teks yang akan dibersihkan.
