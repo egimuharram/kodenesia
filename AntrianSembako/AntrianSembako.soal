@@ -1,0 +1,36 @@
+Konon di sebuah negara yang katanya kaya raya, sering terjadi antrian sembako
+karena kelangkaan pasokan di pasaran. Oh, maaf, jadi berbau politik. Kita
+ganti saja ceritanya. Antrian adalah persoalan yang lazim muncul dalam
+pemrograman. Kasir di bank dan sejumlah nasabah yang akan menarik atau menyetor
+uang adalah contoh yang cukup jelas. 
+
+Ada 3 kasir yang melayani nasabah. Nasabah ada dalam satu antrian. 
+Setiap ada kasir kosong, maka nasabah paling depan dalam antrian langsung dapat 
+menuju ke kasir tersebut. Setiap nasabah dilayani dalam waktu yang berbeda-beda 
+sesuai dengan keperluannya. Berapa lama waktu yang diperlukan untuk melayani semua nasabah? 
+Berikut ini sebagai contoh:
+
++---+---+---+---+---+---+---+---+---+----+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | urutan antrian
++---+---+---+---+---+---+---+---+---+----+
+| 2 | 3 | 3 | 7 | 1 | 2 | 2 | 1 | 5 | 2  | waktu pelayanan (menit)
++---+---+---+---+---+---+---+---+---+----+
+Kasir 1: 1 4
+Kasir 2: 2 5 7 9
+Kasir 3: 3 6 8 10
+
+Pada contoh ini Kasir 1 melayani nasabah yang ada di antrian nomor 1 dan 4,
+Kasir 2 melayani nasabah yang ada di antrian nomor 2, 5, 7, dan 9, Kasir
+3 melayani nasabah yang ada di antrian nomor 3, 6, 8, dan 10. Dari contoh
+ini waktu yang diperlukan sampai semua kasir menjadi kosong (semua nasabah
+selesai dilayani) adalah 11 menit. Angka ini diperoleh dari Kasir 2, karena
+nasabah terakhir yang selesai dilayani adalah nasabah 9. Waktu pelayanan
+oleh Kasir 2 untuk setiap nasabah adalah : 3+1+2+5 = 11
+
+File input.9
+Baris pertama berisi angka yang menunjukkan jumlah soal. Setiap baris
+berikutnya adalah representasi antrian nasabah. Berisi sejumlah angka yang
+dipisahkan oleh satu spasi. Setiap angka menunjukkan waktu yang diperlukan
+untuk melayani satu nasabah. Jika ada N angka dalam satu baris, menunjukkan
+ada N nasabah dalam antrian. Antrian terdepan adalah angka paling kiri.
+Hitung waktu yang diperlukan untuk melayani nasabah dengan jumlah kasir sebanyak 3

@@ -1,0 +1,16 @@
+Kaka mempunyai kantong ajaib untuk pertunjukan sulap. Isinya adalah
+kelereng. Penonton hanya boleh mengambil satu kelereng untuk setiap
+pengambilan. Setiap kali sesudah mengambil satu kelereng dari dalam kantong,
+maka sisa kelereng yang ada dalam kantong tersebut akan ditambah dengan N
+kelereng baru. Berapa kali minimal pengambilan sehingga isi kantong sama
+atau lebih dari X ?
+
+Misalnya di awal, kantong berisi 5 kelereng. Setiap diambil satu, sisanya
+ditambah 3. Setelah pengambilan ke berapa isi kantong sama atau lebih dari
+10? Untuk contoh ini jawabnya adalah setelah pengambilan ke 3.
+
+File input.6
+Baris pertama berisi angka yang menunjukkan jumlah soal. Setiap baris
+berikutnya berisi 3 angka A N X yang dipisahkan oleh satu spasi. A adalah
+jumlah awal kelereng dalam kantong. N adalah penambahan setiap pengambilan
+satu kelereng. X adalah jumlah kelereng dalam kantong yang hendak dicapai.

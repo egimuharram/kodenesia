@@ -1,0 +1,16 @@
+Arif adalah orang yang menyukai angka. Penjumlahan dan perkalian adalah proses
+yang paling digemarinya. Dia baru saja menemukan sebuah mainan baru yaitu
+mencari hasil penjumlahan dari angka yang merupakan perkalian dari bilangan A
+atau B yang ada dalam rentang tertentu. 
+
+Contohnya begini. A adalah angka 2,
+dan B adalah angka 5. Rentang bilangan ditentukan dalam batas X sampai Y,
+dimana X dan Y disertakan dalam rentang tersebut. Untuk X = 1 dan Y = 12,
+jumlah dari bilangan yang merupakan perkalian 2 atau perkalian 5 adalah :
+2 + 4 + 5 + 6 + 8 + 10 + 12 = 47.
+
+File input.2
+Baris pertama berisi angka yang menunjukkan jumlah soal. Setiap baris
+berikutnya berisi 4 angka (integer) yang dipisahkan dengan satu spasi,
+yaitu A B X Y.
+

@@ -1,0 +1,10 @@
+Ade sedang mengisi sebuah kotak. Kotak ini mempunyai ukuran panjang P cm,
+lebar L cm, dan tinggi T cm. Benda yang akan dimasukkan ke dalam kotak adalah
+kayu yang berbentuk kubus dengan panjang sisi S cm. Berapakah jumlah maksimum
+kubus yang bisa dimasukkan Ade ke dalam kotak ?
+
+File input.1
+Baris pertama berisi angka yang menunjukkan jumlah soal. Setiap baris
+berikutnya berisi 4 angka (integer) yang dipisahkan dengan satu spasi,
+yaitu P L T S.
+
