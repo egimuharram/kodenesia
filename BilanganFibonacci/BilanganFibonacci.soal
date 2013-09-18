@@ -1,0 +1,12 @@
+Bilangan Fibonacci adalah deretan angka dimana angka ke-n adalah hasil
+penjumlahan dua angka sebelumnya. Untuk sepuluh angka pertama dalam bilangan
+Fibonacci yang dimulai dengan angka 1 dan 2 adalah sebagai berikut :
+
+1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ...
+
+Misalnya diambil contoh angka ke-7 pada deret di atas adalah angka 21,
+merupakan penjumlahan angka ke-5 dan angka ke-6, yaitu 8 dan 13.
+Untuk soal ini, carilah berapa banyak angka genap yang ada dalam deret
+fibonacci di atas, batas maksimum angka ke-n dari bilangan fibonacci tidak
+lebih dari 1000000 (sejuta). Sebagai contoh, jika angka ke-n adalah maksimal
+90, maka banyaknya angka genap adalah 3 (2, 8, 34)
