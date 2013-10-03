@@ -1,6 +1,6 @@
 #!/usr/bin/python -tt
 import sys
-import logging
+import math
 
 class PenjagaTitikTengah:
   
@@ -14,27 +14,24 @@ class PenjagaTitikTengah:
     n = int(pembaca.readline()) 
     for i in range(1, n+1):
       baris = pembaca.readline().strip()
-      logging.debug('fuck %s',baris)
-      sys.exit(0)
-      self.median = self.tentukanMedian(baris)
-      self.pola = self.cariPolanya(baris)
-      self.jumlahkanDelapanAngkaDiSekelilingnya(self,i)
+      self.median = self.tentukanMedian(int(baris))
+      self.pola = self.cariPolanya(int(baris))
+      self.jumlahkanDelapanAngkaDiSekelilingnya(i)
 
-  def tentukanMedian(N):
-    return round(N*N/2)
+  def tentukanMedian(self, N):
+    return int(math.ceil(float(N * N) / 2))
 
   def cariPolanya(self,N):
-    selisih = 0;
     selisih = N-3
     return (1,selisih + self.POLA_3x3[1], 
               selisih + self.POLA_3x3[2],
               selisih + self.POLA_3x3[3])  
 
   def jumlahkanDelapanAngkaDiSekelilingnya(self,i):
-    for key,values in self.pola.iteritems():
-      self.total8Angka += self.median - values
-      self.total8Angka += self.median + values
-    print 'Case #%d: %s' % (i,total8Angka)+'\n'
+    for key,values in enumerate(self.pola):
+      self.total8Angka += self.median - int(values)
+      self.total8Angka += self.median + int(values)
+    print 'Case #%d: %s' % (i,self.total8Angka)
     
 PenjagaTitikTengah = PenjagaTitikTengah()
 PenjagaTitikTengah.cariJumlahAngkaDiSekelilingMedian()
