@@ -3,9 +3,9 @@ Kodenesia
 
 Kodenesia merupakan koleksi soal latihan algoritma & pemrograman. 
 Dibuat untuk bersenang-senang sahaja. Bagi pembaca yg tertarik untuk menyumbang soal dan jawaban
-silahkan untuk mem-forking repositori ini. Semoga bermanfaat.
+silahkan untuk mem-forking repositori ini. 
 
-kodenesia diprakarsai oleh [Yanmarshus Bachtiar](http://karima.web.id) 
+Kodenesia diprakarsai oleh [Yanmarshus Bachtiar](http://karima.web.id) 
 [kodenesia](http://karima.web.id/kodenesia/index.html)
 
 Indeks 
@@ -24,7 +24,7 @@ Indeks
 Cara menjalankan
 ================
 
-Unduh berkas terkait, dari console jalankan perintah `[php/python] nama_berkas`
+Dari console jalankan perintah `[php/python] nama_berkas`
 
 Contoh: `php PesanRahasia.php`
 
