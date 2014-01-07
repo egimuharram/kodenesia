@@ -7,25 +7,19 @@ Tidak lupa disertakan juga algoritma dalam menyelesaikan setiap soal.
 
 Kodenesia diprakarsai oleh [Yanmarshus Bachtiar](http://karima.web.id) 
 
-Indeks 
-======
-
-* Antrian Sembako
-* Pesan rahasia 
-* Penjaga titik tengah 
-* Kantong ajaib
-* Tombol keyboard yang rusak
-* Bilangan Fibonacci
-* Ada malam kasak kusuk 
-* Jumlah dari bilangan yang merupakan perkalian dari
-* Kubus masuk kotak
-
 Cara menjalankan
 ================
 
 Dari console jalankan perintah `[php/python] nama_berkas`
 
 Contoh: `php PesanRahasia.php`
+
+Indeks 
+======
+* FizzBuzz
+* Menutup yang terbuka
+* Urutan terpanjang
+* Percakapan Rahasia
 
 Lisensi
 ================
