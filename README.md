@@ -1,12 +1,11 @@
 Kodenesia
 =========
 
-Kodenesia merupakan koleksi soal latihan algoritma & pemrograman. 
-Dibuat untuk bersenang-senang sahaja. Bagi pembaca yg tertarik untuk menyumbang soal dan jawaban
-silahkan untuk mem-forking repositori ini. 
+Repositori ini berisi jawaban teka-teki silang dalam buku kodenesia.
+Setiap soal diusahakan dijawab menggunakan bahasa pemrograman python, php, dan java.
+Tidak lupa disertakan juga algoritma dalam menyelesaikan setiap soal.
 
 Kodenesia diprakarsai oleh [Yanmarshus Bachtiar](http://karima.web.id) 
-[kodenesia](http://karima.web.id/kodenesia/index.html)
 
 Indeks 
 ======
