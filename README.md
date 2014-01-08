@@ -12,6 +12,7 @@ Cara menjalankan
 ================
 
 Dari console jalankan perintah `[php/python] nama_berkas`
+
 Contoh: `php PesanRahasia.php`
 
 Indeks 
