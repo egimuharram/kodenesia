@@ -16,25 +16,25 @@ class MenutupYgTerbuka {
         {
             $openerMatched = preg_match_all("/\\".$this->opener[$i]."/",$this->sentences,$match) . "\n";
             $closerMatched = preg_match_all("/\\".$this->closer[$i]."/",$this->sentences,$match) . "\n";
+            if ($openerMatched != 0){
+                $isMatched += $openerMatched - $closerMatched;
+            }
         }
-
+        if ($isMatched == 0)
+        {
+            echo "h#1 YA";
+        } else {
+            echo "h#2 TIDAK";
+        }
     }
 
     function comparingMatchedPattern (){
-
     }
 
 }
 
 $MenutupYgTerbuka = new MenutupYgTerbuka();
 $MenutupYgTerbuka->run();
-
-
-// Algoritma
-// Looping by opener, count_total_opener
-// Looping by closer, count_total_closer
-// If count_total_opener == count_total_closer return 1
-// compare with and
 
 
 ?>
