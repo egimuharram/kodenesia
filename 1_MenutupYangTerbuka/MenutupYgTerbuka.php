@@ -5,22 +5,24 @@ class MenutupYgTerbuka {
     private $container;
     private $opener = array("(","{","[");
     private $closer = array(")","}","]");
-    private $sentences = "hh{fffff(jjjj]dddd(dsksksk)}";
+    private $sentences = "hh{fffffj[jj]jdddd(dsksksk)}";
+    private $matched = 0;
 
     function run(){
         $this->lookingForPattern();
     }
 
     function lookingForPattern (){
-        for ($i<=0; $i<=2; $i++)
+        for ($i=0; $i<=2; $i++)
         {
             $openerMatched = preg_match_all("/\\".$this->opener[$i]."/",$this->sentences,$match) . "\n";
             $closerMatched = preg_match_all("/\\".$this->closer[$i]."/",$this->sentences,$match) . "\n";
             if ($openerMatched != 0){
-                $isMatched += $openerMatched - $closerMatched;
+                $isMatched = $openerMatched - $closerMatched;
+                $this->isAllMatched($isMatched);
             }
         }
-        if ($isMatched == 0)
+        if ($this->matched == 0)
         {
             echo "h#1 YA";
         } else {
@@ -28,7 +30,8 @@ class MenutupYgTerbuka {
         }
     }
 
-    function comparingMatchedPattern (){
+    function isAllMatched ($subTotal){
+        $this->matched = $this->matched - $subTotal;
     }
 
 }
