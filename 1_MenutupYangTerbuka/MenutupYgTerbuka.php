@@ -2,21 +2,32 @@
 
 class MenutupYgTerbuka {
 
-    private $container;
     private $opener = array("(","{","[");
     private $closer = array(")","}","]");
-    private $sentences = "hh{fffffj[jj]jdddd(dsksksk)}";
     private $matched = 0;
 
-    function run(){
-        $this->lookingForPattern();
+    public function run()
+    {
+        $counter = 0;
+        try {
+        	$handle = @fopen("../kodenesia_input/01.in", "r");
+            while (($buffer = fgets($handle, 4096)) !== false) {
+                if ($counter != 0) {
+                    echo $this->lookingForPattern($buffer);
+                }
+                $counter++;
+            }
+            fclose($handle);
+         } catch (Exception $ex) {
+         	echo $ex->getMessage();
+         }
     }
 
-    function lookingForPattern (){
+    function lookingForPattern ($string){
         for ($i=0; $i<=2; $i++)
         {
-            $openerMatched = preg_match_all("/\\".$this->opener[$i]."/",$this->sentences,$match) . "\n";
-            $closerMatched = preg_match_all("/\\".$this->closer[$i]."/",$this->sentences,$match) . "\n";
+            $openerMatched = preg_match_all("/\\".$this->opener[$i]."/",$string,$match) . "\n";
+            $closerMatched = preg_match_all("/\\".$this->closer[$i]."/",$string,$match) . "\n";
             if ($openerMatched != 0){
                 $isMatched = $openerMatched - $closerMatched;
                 $this->isAllMatched($isMatched);
@@ -24,9 +35,9 @@ class MenutupYgTerbuka {
         }
         if ($this->matched == 0)
         {
-            echo "h#1 YA";
+            return "YA";
         } else {
-            echo "h#2 TIDAK";
+            return "TIDAK";
         }
     }
 
