@@ -25,7 +25,7 @@ class FizzBuzz {
     // Dalam satu class bisa ada > 1 methods dengan nama sama dengan
     // jumlah parameter yang berbeda-beda.
     //
-    // Salah satu pemanfaatannya ya ini. Ngasih default parameter.
+    // Salah satu pemanfaatannya ya ini. Ngasih nilai default pada parameter.
     // Yang mana kalau di php tinggal gini aja:
     // cetak($i, $suffix = "Neither Fizz Nor Buzz");
     static void cetak(int i){
