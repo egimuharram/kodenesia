@@ -8,12 +8,12 @@ class MenutupYgTerbuka {
 
     public function run()
     {
-        $counter = 0;
+        $counter = 1;
         try {
         	$handle = @fopen("../kodenesia_input/01.in", "r");
             while (($buffer = fgets($handle, 4096)) !== false) {
                 if ($counter != 0) {
-                    echo $this->lookingForPattern($buffer);
+                    echo "h#". $counter . ": " . $this->lookingForPattern($buffer) . "\n";
                 }
                 $counter++;
             }
@@ -24,27 +24,21 @@ class MenutupYgTerbuka {
     }
 
     function lookingForPattern ($string){
+        $openerMatched = 0;
+        $closerMatched = 0;
         for ($i=0; $i<=2; $i++)
         {
-            $openerMatched = preg_match_all("/\\".$this->opener[$i]."/",$string,$match) . "\n";
-            $closerMatched = preg_match_all("/\\".$this->closer[$i]."/",$string,$match) . "\n";
-            if ($openerMatched != 0){
-                $isMatched = $openerMatched - $closerMatched;
-                $this->isAllMatched($isMatched);
-            }
+            $openerMatched += preg_match_all("/".preg_quote($this->opener[$i],"/")."/",$string,$match);
+            $closerMatched += preg_match_all("/".preg_quote($this->closer[$i],"/")."/",$string,$match);
+            //print $openerMatched . " vs " . $closerMatched . "\n";
         }
-        if ($this->matched == 0)
-        {
-            return "YA";
+        //echo "open: " . $openerMatched . " closer: " . $closerMatched . " Hasil: " . ($openerMatched - $closerMatched); die;
+        if (($openerMatched - $closerMatched) == 0) {
+            return "Ya";
         } else {
-            return "TIDAK";
+            return "Tidak";
         }
     }
-
-    function isAllMatched ($subTotal){
-        $this->matched = $this->matched - $subTotal;
-    }
-
 }
 
 $MenutupYgTerbuka = new MenutupYgTerbuka();
