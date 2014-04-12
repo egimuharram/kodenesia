@@ -4,7 +4,6 @@ class MenutupYgTerbuka {
 
     private $opener = array("(","{","[");
     private $closer = array(")","}","]");
-    private $matched = 0;
 
     public function run()
     {
@@ -23,16 +22,15 @@ class MenutupYgTerbuka {
          }
     }
 
-    function lookingForPattern ($string){
+    function lookingForPattern ( $string ) {
         $openerMatched = 0;
         $closerMatched = 0;
-        for ($i=0; $i<=2; $i++)
+        for ( $i= 0; $i<=2; $i++ )
         {
             $openerMatched += preg_match_all("/".preg_quote($this->opener[$i],"/")."/",$string,$match);
             $closerMatched += preg_match_all("/".preg_quote($this->closer[$i],"/")."/",$string,$match);
-            //print $openerMatched . " vs " . $closerMatched . "\n";
         }
-        //echo "open: " . $openerMatched . " closer: " . $closerMatched . " Hasil: " . ($openerMatched - $closerMatched); die;
+
         if (($openerMatched - $closerMatched) == 0) {
             return "Ya";
         } else {
@@ -43,6 +41,5 @@ class MenutupYgTerbuka {
 
 $MenutupYgTerbuka = new MenutupYgTerbuka();
 $MenutupYgTerbuka->run();
-
 
 ?>
