@@ -2,7 +2,7 @@ Kodenesia
 =========
 
 Repositori ini berisi jawaban teka-teki silang dalam buku kodenesia.
-Setiap soal diusahakan dijawab menggunakan bahasa pemrograman python, php, dan java.
+Setiap soal diusahakan dijawab menggunakan berbagai macam bahasa pemrograman.
 Tidak lupa disertakan juga algoritma dalam menyelesaikan setiap soal.
 Soal-soal perdana sebelum kodenesia dirilis sebagai buku tersimpan dengan baik dalam folder `z_arsip`.
 
